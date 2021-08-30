@@ -1,3 +1,4 @@
-class cad:
-    def __init__(self, amount):
+class money:
+    def __init__(self, type, amount):
+        self.type = type
         self.mon = amount
